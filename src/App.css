@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-phoneNumber{
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 600px;
+  height: 100vh;
+  border: 1px solid #0a85f867;
+  border-radius: 40px;
+}
+
+.container-items {
+  width: 100%;
+  padding: 30px 25px;
+}
+
+
+/* 제목 */
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 30px 0;
+  background-color: #0f507aab;
+  border-radius: 40px 40px 0 0;
+  color: white;
+}
+
+/* 이름 전화번호 추가영역 */
+.Container{
+  margin: 20px;
+}
+
+.add-container {
+  max-width: 250px;
+}
+
+.add-area {
+  max-width: 170px;
+}
+
+Button {
+  width: 70px;
+} 
+
+
+/* 찾기 영역 */
+.search-area {
+  max-width: 500px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.person-number {
+  margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .search-area {
+    white-space: nowrap;
+  }
+}
